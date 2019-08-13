@@ -1,0 +1,37 @@
+#include <stdio.h>
+main(){
+	int a,b,c,d,e;
+	int max;
+	
+	printf("Num 1 :");
+	scanf("%d",&a);
+	printf("Num 2 :");
+	scanf("%d",&b);
+	printf("Num 3 :");
+	scanf("%d",&c);
+	printf("Num 4 :");
+	scanf("%d",&d);
+	printf("Num 5 :");
+	scanf("%d",&e);
+	
+	max = a;
+	if(b>max){
+		max = b;
+	}
+	
+	if(c>max){
+		max = c;
+	}
+	
+	if(d>max){
+		max = d;
+	}
+	
+	if(e>max){
+		max = e;
+	}
+	
+	printf("Max = %d",max);
+	
+	
+}
