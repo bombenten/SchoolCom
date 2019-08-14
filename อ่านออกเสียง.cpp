@@ -50,37 +50,66 @@ main(){
 				printf("twelve ");
 			}
 			else{
-			j = ((p - i)/10)*10 ;
+				if(j==13){
+					printf("thirteen ");
+				}
+				else{
+					if(j==14){
+						printf("fourteen ");
+					}
+					else{
+						if(j==15){
+							printf("fifteen ");
+						}
+						else{
+							if(j==16){
+								printf("sixteen ");
+							}
+							else{
+								if(j==17){
+									printf("seventeen ");
+								}
+								else{
+									if(j==18){
+										printf("eighteen ");
+									}
+									else{
+										if(j==19){
+											printf("nineteen");
+										}
+										else{
+											j = ((p - i)/10)*10 ;
 			
-				if(j==10){
-					printf("ten ");
-				}
-				if(j==20){
-					printf("twenty ");
-				}
-				if(j==30){
-					printf("thirty ");
-				} 
-				if(j==40){
-					printf("Fourty ");
-				}
-				if(j==50){
-					printf("fifty ");
-				}
-				if(j==60){
-					printf("Sixty ");
-				}	
-				if(j==70){
-					printf("seventy ");
-				}
-				if(j==80){
-					printf("eighty ");
-				}
-				if(j==90){
-					printf("ninety ");
-				}
-			}
-	
+											if(j==10){
+												printf("ten ");
+											}
+											if(j==20){
+												printf("twenty ");
+											}
+											if(j==30){
+												printf("thirty ");
+											} 
+											if(j==40){
+												printf("Fourty ");
+											}
+											if(j==50){
+												printf("fifty ");
+											}
+											if(j==60){
+												printf("Sixty ");
+											}	
+											if(j==70){
+												printf("seventy ");
+											}
+											if(j==80){
+												printf("eighty ");
+											}
+											if(j==90){
+												printf("ninety ");
+											}
+										}
+									}	
+								}
 	i = (p - (i + j));
 	
 	if(i>=0){
@@ -117,6 +146,11 @@ main(){
 	
 		
 		
+}
+}
+}
+}
+}
 }
 }
 }
