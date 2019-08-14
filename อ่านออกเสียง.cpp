@@ -10,7 +10,7 @@ main(){
 	
 	
 	i = (p/100)*100;
-	
+	if(p>0){
 	if(i>=100){
 		if(i==100){
 			printf("One hundred ");
@@ -141,16 +141,15 @@ main(){
 			printf("nine");
 		}
 	}	
-	
-	
-	
-		
-		
+}		
 }
 }
 }
 }
 }
+}
+else{
+	printf("zero");
 }
 }
 }
